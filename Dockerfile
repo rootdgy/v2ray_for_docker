@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-EXPOSE 7860
+EXPOSE 3000
 
 WORKDIR /bz/
 
