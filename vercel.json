@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "start.sh", "use": "@now/static-build" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/start.sh" }
-  ]
-}
